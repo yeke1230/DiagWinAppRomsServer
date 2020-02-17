@@ -1,0 +1,9 @@
+<ROMS>
+<Server port="2001" timeout="1"></Server>
+<DataBase switch="on" name="mingfeng" ipaddress="10.10.20.89" port="3306" user="root" password="fmi-drooga"></DataBase>
+<ThreadPool number="5"></DataBase>
+<DataBasePool number="10"></DataBasePool>
+<StateTimer time="6"></StateTimer>
+<RootFilePath >C:\RDC\RDC_Files</RootFilePath>
+<HttpURL switch="on">http://minfound.net:7788/mingfeng/mfapp/mf_sendAlertMsg.action?</HttpURL>
+</ROMS>
